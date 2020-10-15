@@ -11,7 +11,6 @@ class Vulcan < Formula
   depends_on "coreutils"
 
   def install
-    system "ls -la"
     prefix.install Dir["*"]
   end
 end
